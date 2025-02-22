@@ -28,6 +28,12 @@ const copyDebugInfoToClipboard = async () => {
 	});
 	await clipboard.copy(debugInfo.generateDebugInfo());
 };
+{
+	"_brand.name": "Flowgenie",
+	//replace n8n with link to _brand.name
+	"about.aboutN8n": "About @:_Flowgenie",
+	"about.n8nVersion": "@:_Flowgenie Version",
+}
 </script>
 
 <template>
